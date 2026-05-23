@@ -2,23 +2,33 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Contato | Instituto Educar+</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia Militar Imperial de Sinegard </title>
 </head>
 <body>
 
-    <header>
-        <div class="logo">
-            <a href="index.html">🎓 Instituto Educar+</a>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="cursos.html">Cursos</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="contato.html">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
+<header>
+
+
+  <div>
+    <a href="index.html" >
+      <img src="imagens/logo.png" alt="LOGO DA Instituição">
+      <h1>Academia Militar Imperial de Sinegard</h1>
+      <h4>A forja dos escolhidos</h4>
+    </a>
+
+    <!-- menu navegavel entre as paginas interna -->
+    <nav class="menu-navegacao">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="cursos.html">Cursos</a></li>
+        <li><a href="contatos.html">Contatos</a></li>
+      </ul>
+    </nav>
+  </div>
+
+</header>
 
     <main>
         <h1>Fale conosco</h1>
@@ -39,36 +49,49 @@
                 <input type="tel" id="telefone" name="telefone">
             </div>
             <div>
-                <label for="mensagem">Mensagem:</label><br>
-                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                <select name="select">
+                    <option value="valor1" selected>Quero me inscrever</option>
+                    <option value="valor2" >Tenho duvida</option>
+                    <option value="valor3">Outro</option>
+                </select>
+
+            </div>
+
+            <div>
+                <label for="mensagem">Insira sua mensagem</label><br>
+                <textarea id="mensagem" name="mensagem" rows="5" required minlength="20"></textarea>
+
+
+            </div>
+
+            <div>
+
+                <label>
+                    <input type="checkbox" name="Aceitar Politicas" value="Privacidade">
+                        Check Privacidade
+                </label>
+
             </div>
             <button type="submit">Enviar mensagem</button>
         </form>
 
         <hr>
 
-        <section>
-            <h2>Informações de contato direto</h2>
-            <address>
-                <strong>Endereço da unidade central:</strong><br>
-                Rua da Educação, 123 – Centro<br>
-                São Paulo – SP, CEP 01000-000<br><br>
-                <strong>Telefone/WhatsApp:</strong> (11) 3456-7890<br>
-                <strong>Email:</strong> <a href="mailto:contato@educarmais.edu">contato@educarmais.edu</a><br>
-                <strong>Atendimento:</strong> Segunda a sexta, 9h às 18h
-            </address>
-        </section>
+        <img src="imagens/mapa.png" usemap="mapa" alt="Imagem mapa">
+        <map name="mapa" id="mapa">
+        </map>
+
     </main>
 
     <footer>
         <div>
             <h4>Contato</h4>
             <address>
-                Rua da Educação, 123 – Centro, São Paulo – SP<br>
-                📞 (11) 3456-7890<br>
-                ✉️ <a href="mailto:contato@educarmais.edu">contato@educarmais.edu</a>
+                IMPERIO NIKAN<br>
+                SEM NUMEROS DISPONIVEIS - AINDA <br>
+                <a href="contatos.html">Academia Militar Imperial de Sinegard</a>
             </address>
-            <p>&copy; 2025 Instituto Educar+. Todos os direitos reservados.</p>
+            <p>&copy; 2026 Academia Militar Imperial de Sinegard. Todos os direitos reservados.</p>
         </div>
     </footer>
 
