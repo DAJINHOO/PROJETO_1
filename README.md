@@ -2,6 +2,8 @@
 
 ## Sobre o Projeto
 
+link do projeto: [https://github.com/DAJINHOO/PROJETO_1]
+
 Este projeto foi desenvolvido para a disciplina de Desenvolvimento de Software como parte do Trabalho 02 – Estilização e Responsividade com CSS.
 
 O objetivo do trabalho consiste na criação de um site institucional utilizando HTML5 e CSS3, aplicando conceitos de design responsivo, organização visual, acessibilidade e boas práticas de desenvolvimento web.
