@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Academia Militar Imperial de Sinegard </title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
 
@@ -12,11 +13,17 @@
 
   <div>
     <a href="index.html" >
-      <img src="imagens/logo.png" alt="LOGO DA Instituição">
+      <img src="imagens/logo-sem-fundo.png" alt="LOGO DA Instituição" class="logo">
       <h1>Academia Militar Imperial de Sinegard</h1>
       <h4>A forja dos escolhidos</h4>
     </a>
 
+    <!-- menu navegavel entre as paginas interna -->
+    <input type="checkbox" id="menu-hamburger">
+
+    <label for="menu-hamburger" class="menu-toggle">
+    ☰
+    </label>
     <!-- menu navegavel entre as paginas interna -->
     <nav class="menu-navegacao">
       <ul>
@@ -35,12 +42,12 @@
     <!-- Seção hero - apresentação da instituição -->
      <figure>
         <img
-          src="images/hero.png"
+          src="imagens/hero.png"
           alt="Academia Militar Imperial" >
       <figcaption>Academia Militar Imperial</figcaption>
       </figure>
 
-        <section>
+          <section>
             <h1>Forjados no Fogo, Unificados pela Papoula</h1>
             <p>
               Na Academia Militar Imperial de Sinegard,
@@ -52,10 +59,10 @@
 
               </p>
               <a href="cursos.html">Conheça nossos cursos</a>
-            </section>
+          </section>
 
             <!-- Seção sobre a instituição (Missão, Visão, Valores) -->
-            <section>
+          <section class="Missao_visao_valores">
             <h2>Missão, Visão e Valores</h2>
             <article>
                 <h3>Missão</h3>
@@ -77,12 +84,12 @@
 
                 </ul>
               </article>
-            </section>
+          </section>
 
             <!-- Destaques de cursos -->
-            <section >
+          <section >
             <h2>Cursos em Destaque</h2>
-            <div>
+            <div class="cursos-grid">
                 <article>
                   <h3>Estratégia de Guerra</h3>
                     <p>Curso mais disputado, responsavel por criar a elite dos comandantes</p>

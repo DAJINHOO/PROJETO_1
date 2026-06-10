@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Academia Militar Imperial de Sinegard </title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
 
@@ -12,11 +13,15 @@
 
   <div>
     <a href="index.html" >
-      <img src="imagens/logo.png" alt="LOGO DA Instituição">
+      <img src="imagens/logo-sem-fundo.png" alt="LOGO DA Instituição" class="logo">
       <h1>Academia Militar Imperial de Sinegard</h1>
       <h4>A forja dos escolhidos</h4>
     </a>
+    <input type="checkbox" id="menu-hamburger">
 
+    <label for="menu-hamburger" class="menu-toggle">
+    ☰
+    </label>
     <!-- menu navegavel entre as paginas interna -->
     <nav class="menu-navegacao">
       <ul>
@@ -31,10 +36,11 @@
 </header>
 
     <main>
+        <section>
         <h1>Fale conosco</h1>
         <p>Envie sua mensagem, dúvida ou sugestão. Responderemos em até 24h úteis.</p>
 
-        <!-- Formulário de contato (sem CSS, apenas HTML) -->
+        <!-- Formulário de contato -->
         <form action="#" method="post">
             <div>
                 <label for="nome">Nome completo:</label><br>
@@ -49,6 +55,7 @@
                 <input type="tel" id="telefone" name="telefone">
             </div>
             <div>
+                <label for="selected"> Qual tipo de contato</label>
                 <select name="select">
                     <option value="valor1" selected>Quero me inscrever</option>
                     <option value="valor2" >Tenho duvida</option>
@@ -60,27 +67,26 @@
             <div>
                 <label for="mensagem">Insira sua mensagem</label><br>
                 <textarea id="mensagem" name="mensagem" rows="5" required minlength="20"></textarea>
-
-
             </div>
 
-            <div>
-
+            <div class="checkbox-group">
                 <label>
-                    <input type="checkbox" name="Aceitar Politicas" value="Privacidade">
-                        Check Privacidade
+                    <input type="checkbox" name="aceitar_privacidade" value="Privacidade">
+                        Li e aceito a Política de Privacidade
                 </label>
 
             </div>
+            <div class="botao_submit">
             <button type="submit">Enviar mensagem</button>
+            </div>
         </form>
+        </section>
 
-        <hr>
-
-        <img src="imagens/mapa.png" usemap="mapa" alt="Imagem mapa">
+        <section>
+        <img src="imagens/mapa.png" usemap="mapa" alt="Imagem mapa" class="mapa">
         <map name="mapa" id="mapa">
         </map>
-
+        </section>
     </main>
 
     <footer>

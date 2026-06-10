@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Academia Militar Imperial de Sinegard </title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
@@ -13,45 +14,51 @@
 
     <div>
       <a href="index.html" >
-        <img src="imagens/logo.png" alt="LOGO DA Instituição">
+        <img src="imagens/logo-sem-fundo.png" alt="LOGO DA Instituição" class="logo">
         <h1>Academia Militar Imperial de Sinegard</h1>
         <h4>A forja dos escolhidos</h4>
       </a>
 
       <!-- menu navegavel entre as paginas interna -->
-      <nav class="menu-navegacao">
-        <ul>
-          <li><a href="index.html">Início</a></li>
-          <li><a href="sobre.html">Sobre</a></li>
-          <li><a href="cursos.html">Cursos</a></li>
-          <li><a href="contatos.html">Contatos</a></li>
-        </ul>
-      </nav>
-    </div>
+    <input type="checkbox" id="menu-hamburger">
+
+    <label for="menu-hamburger" class="menu-toggle">
+    ☰
+    </label>
+    <!-- menu navegavel entre as paginas interna -->
+    <nav class="menu-navegacao">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="cursos.html">Cursos</a></li>
+        <li><a href="contatos.html">Contatos</a></li>
+      </ul>
+    </nav>
+  </div>
 
   </header>
 <main>
+  <section>
+    <h1>Sobre a Instituição</h1>
 
-  <h1>Sobre a Instituição</h1>
+    <h4>Fundação: Ano 542 do Calendário Imperial (após a Guerra da Peste Negra)
+      Localização: Monte Sinegard, província central de Nikara
 
-  <h4>Fundação: Ano 542 do Calendário Imperial (após a Guerra da Peste Negra)
-    Localização: Monte Sinegard, província central de Nikara
+      A Academia Militar Imperial de Sinegard foi erguida sobre as ruínas de um antigo templo xamânico, onde dizem que a
+      própria Deusa da Papoula deixou suas pegadas. Durante séculos, a academia serviu como último reduto dos mestres de
+      guerra do Império. Diferente de outras escolas militares, Sinegard sempre aceitou candidatos de qualquer origem –
+      desde que passem no brutal Exame Imperial de Admissão, que testa não só conhecimento, mas resistência física e
+      psicológica.
 
-    A Academia Militar Imperial de Sinegard foi erguida sobre as ruínas de um antigo templo xamânico, onde dizem que a
-    própria Deusa da Papoula deixou suas pegadas. Durante séculos, a academia serviu como último reduto dos mestres de
-    guerra do Império. Diferente de outras escolas militares, Sinegard sempre aceitou candidatos de qualquer origem –
-    desde que passem no brutal Exame Imperial de Admissão, que testa não só conhecimento, mas resistência física e
-    psicológica.
+      A vida em Sinegard é dividida entre salas de estratégia, campos de tiro com arco, laboratórios de alquimia
+      (proibidos para calouros sem supervisão) e as temidas "Câmaras da Meditação Xamânica", onde alguns alunos aprendem a
+      contatar os deuses. Outros, infelizmente, nunca mais saem de lá com a mente sã.
 
-    A vida em Sinegard é dividida entre salas de estratégia, campos de tiro com arco, laboratórios de alquimia
-    (proibidos para calouros sem supervisão) e as temidas "Câmaras da Meditação Xamânica", onde alguns alunos aprendem a
-    contatar os deuses. Outros, infelizmente, nunca mais saem de lá com a mente sã.
-
-    O currículo é conhecido por ser mortal – cerca de 30% dos alunos não concluem o primeiro ano. Os que sobrevivem,
-    porém, tornam-se lendas. A academia já produziu três Censores Imperiais, doze generais vitoriosos e o único xamã
-    capaz de canalizar a Fênix em três séculos.
-  </h4>
-
+      O currículo é conhecido por ser mortal – cerca de 30% dos alunos não concluem o primeiro ano. Os que sobrevivem,
+      porém, tornam-se lendas. A academia já produziu três Censores Imperiais, doze generais vitoriosos e o único xamã
+      capaz de canalizar a Fênix em três séculos.
+    </h4>
+  </section>
 
   <!-- sobre os professores -->
 <section>
@@ -128,41 +135,36 @@
     </p>
   </article>
 
-
-
-    <h1>Sobre Nossa Infraestrutura</h1>
-
-    <p>
-      A Academia Militar foi projetada para formar líderes preparados para enfrentar os desafios mais extremos do campo de batalha moderno. Nossa instituição combina tradição militar, tecnologia estratégica e treinamento intensivo em um ambiente voltado para excelência, disciplina e evolução constante.
-    </p>
-
-    <p>
-      O campus possui salas de instrução avançada, bibliotecas táticas, laboratórios de estratégia militar e centros especializados em combate, sobrevivência e liderança. Cada espaço foi desenvolvido para proporcionar aos cadetes uma formação completa, equilibrando conhecimento teórico e experiência prática.
-    </p>
-
-    <p>
-      Entre nossos principais recursos estão os campos de treinamento físico, arenas de combate, simuladores táticos, dormitórios militares e áreas de preparação operacional. A academia também conta com unidades de pesquisa estratégica dedicadas ao estudo de conflitos históricos, inteligência militar e operações especiais.
-    </p>
-
-    <p>
-      Nossa infraestrutura foi construída para estimular resistência, disciplina e cooperação entre os alunos, criando um ambiente que fortalece tanto as capacidades individuais quanto o espírito coletivo que define os grandes oficiais militares.
-    </p>
-
   </section>
 
+    <section>
+      <h1>Sobre Nossa Infraestrutura</h1>
 
+      <p>
+        A Academia Militar foi projetada para formar líderes preparados para enfrentar os desafios mais extremos do campo de batalha moderno. Nossa instituição combina tradição militar, tecnologia estratégica e treinamento intensivo em um ambiente voltado para excelência, disciplina e evolução constante.
+      </p>
+
+      <p>
+        O campus possui salas de instrução avançada, bibliotecas táticas, laboratórios de estratégia militar e centros especializados em combate, sobrevivência e liderança. Cada espaço foi desenvolvido para proporcionar aos cadetes uma formação completa, equilibrando conhecimento teórico e experiência prática.
+      </p>
+
+      <p>
+        Entre nossos principais recursos estão os campos de treinamento físico, arenas de combate, simuladores táticos, dormitórios militares e áreas de preparação operacional. A academia também conta com unidades de pesquisa estratégica dedicadas ao estudo de conflitos históricos, inteligência militar e operações especiais.
+      </p>
+
+      <p>
+        Nossa infraestrutura foi construída para estimular resistência, disciplina e cooperação entre os alunos, criando um ambiente que fortalece tanto as capacidades individuais quanto o espírito coletivo que define os grandes oficiais militares.
+      </p>
+    </section>
   <div>
     <section>
       <article>
         <h4>Esse site é um site ficticio com informaçãoes baseadas no livro POPPY WAR</h4>
         <p>Para saber mais sobre o livro pode clicar abaixo</p>
       </article>
+      <a href="https://elivros.info/serie/A-Guerra-da-Papoula">Para baixar</a>
     </section>
-
   </div>
-    <a href="https://elivros.info/serie/A-Guerra-da-Papoula">Para baixar</a>
-
-
 </main>
   <footer>
       <div>
